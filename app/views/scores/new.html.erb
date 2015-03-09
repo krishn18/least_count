@@ -1,0 +1,14 @@
+  <div style="width:50px; height:50px; background-color:red"></div>
+<%= form_for @score do |f| %>
+  <%#<% @names.each_with_index do |name,i| %>
+    <%#<%= link_to name,  {:action=>"show", :controller=>"scores", :id=>name} %>
+    <p>
+      <%= f.label "Points" %>
+      <%= f.text_area "points" %>
+    </p>
+
+  <%#<% end %>
+   <%= f.submit 'post' %>
+<% end %>
+
+  
