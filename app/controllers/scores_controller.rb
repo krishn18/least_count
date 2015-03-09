@@ -23,6 +23,9 @@ def create
 		render 'new'
 	end
 end
+def edit
+end
+
 
 private
 
